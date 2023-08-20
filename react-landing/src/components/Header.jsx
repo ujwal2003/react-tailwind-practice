@@ -7,8 +7,8 @@ function makeKey(prefix="") {
 function Header({links}) {
     return (
         <nav className="flex items-center justify-around bg-[#1F2937]">
-            <div className="h-auto w-[45%]">
-                <img src="./header-logo.png" />
+            <div className="h-24 w-[45%]">
+                <img src="./header-logo.png" className="object-contain w-24" />
             </div>
 
             <div className="flex gap-[50px]">

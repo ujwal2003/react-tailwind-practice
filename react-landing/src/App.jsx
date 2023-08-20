@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   let navLinks = [
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <Header links={navLinks} />
+      <Hero />
     </>
   )
 }
