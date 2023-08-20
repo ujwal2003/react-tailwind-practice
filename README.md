@@ -1,0 +1,1 @@
+Practicing the basics of ReactJS and TailwindCSS by re-creating the Odin Landing Page project using these frameworks.
