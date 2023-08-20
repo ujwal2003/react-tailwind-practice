@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Info from "./components/Info";
 import Quote from "./components/Quote";
 import Action from "./components/Action";
+import Footer from "./components/Footer";
 
 function App() {
   let navLinks = [
@@ -20,6 +21,7 @@ function App() {
       <Info />
       <Quote />
       <Action />
+      <Footer />
     </>
   )
 }
