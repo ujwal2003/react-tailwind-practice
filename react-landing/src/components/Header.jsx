@@ -1,6 +1,6 @@
 import React from "react";
 
-function makeKey(prefix="") {
+export function makeKey(prefix="") {
     return `${prefix}_${new Date().getTime()}`;
 }
 
