@@ -1,11 +1,17 @@
 import React from "react";
 
+import Header from "./components/Header";
+
 function App() {
+  let navLinks = [
+    {"name": "link-one", "url": "#"},
+    {"name": "link-two", "url": "#"},
+    {"name": "link-three", "url": "#"},
+  ];
+
   return (
     <>
-      <h1 className = "text-3xl font-bold underline italic">
-        Hello World
-      </h1>
+      <Header links={navLinks} />
     </>
   )
 }
